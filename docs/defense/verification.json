@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "slides": 10,
+  "guide_pdf_pages": 11,
+  "cheatsheet_pdf_pages": 1,
+  "word_tables": 5,
+  "presentation_minutes": 12,
+  "questions_minutes": 3,
+  "total_minutes": 15,
+  "javascript_errors": [],
+  "external_requests": [],
+  "slide_bounds": [
+    {
+      "slide": 1,
+      "overflow": []
+    },
+    {
+      "slide": 2,
+      "overflow": []
+    },
+    {
+      "slide": 3,
+      "overflow": []
+    },
+    {
+      "slide": 4,
+      "overflow": []
+    },
+    {
+      "slide": 5,
+      "overflow": []
+    },
+    {
+      "slide": 6,
+      "overflow": []
+    },
+    {
+      "slide": 7,
+      "overflow": []
+    },
+    {
+      "slide": 8,
+      "overflow": []
+    },
+    {
+      "slide": 9,
+      "overflow": []
+    },
+    {
+      "slide": 10,
+      "overflow": []
+    }
+  ],
+  "source": "Current PHP/SQL and stored browser verification results dated 2026-10-27"
+}
