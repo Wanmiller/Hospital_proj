@@ -4,10 +4,10 @@
 
 ## DeckCraft презентациясы
 
-- [DeckCraft материалдарының ZIP архиві](deckcraft/Emhana_deckcraft_materialdary.zip) — презентация мен екі адамға арналған жоспарды бірге жүктеу.
-- [Өңделетін PPTX: 13 слайд](deckcraft/Emhana_prezentatsiya.pptx) — DeckCraft немесе PowerPoint бағдарламасында ашыңыз.
-- [DeckCraft жобасы](deckcraft/Emhana_prezentatsiya.deckcraft) — бағдарламаның өз форматы.
-- [PDF нұсқасы](deckcraft/Emhana_prezentatsiya.pdf) — қосымша көрсету нұсқасы.
+- [Жаңартылған материалдардың ZIP архиві](deckcraft/Emhana_deckcraft_v2.zip) — презентация мен екі адамға арналған жоспарды бірге жүктеу.
+- [Жаңартылған PPTX: 13 слайд](deckcraft/Emhana_prezentatsiya_v2.pptx) — DeckCraft немесе PowerPoint бағдарламасында ашыңыз.
+- [Жаңартылған DeckCraft жобасы](deckcraft/Emhana_prezentatsiya_v2.deckcraft) — бағдарламаның өз форматы.
+- [Жаңартылған PDF нұсқасы](deckcraft/Emhana_prezentatsiya_v2.pdf) — қосымша көрсету нұсқасы.
 - [13 слайдқа арналған сөйлеу жоспары](deckcraft/soileu-zhospary.md) — екі адамның реті мен 15 минуттық уақыт бөлінісі.
 
 Бұл презентацияда баяндамашылардың белгілері мен қорғаныс уақыты көрсетілмейді. Төмендегі материалдар — бұрынғы 10 слайдтық нұсқа және қосымша сұрақ-жауап.
