@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Емхана ақпараттық беті — Зертханалық жұмыс №9</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="cross" aria-hidden="true">+</span><span>Емхана<small>ҚАБЫЛДАУҒА ЖАЗЫЛУ ЖҮЙЕСІ</small></span></a>
+    <span class="lab-label">ЗЕРТХАНАЛЫҚ ЖҰМЫС №9</span>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">APACHE СЕРВЕРІНДЕГІ ЖЕРГІЛІКТІ ВЕБ-ЖОБА</p>
+      <h1 id="page-title">Емханаға жазылу.<br>Ақпарат бір жерде.</h1>
+      <p class="lead">Бұл ақпараттық бет пациенттерді дәрігердің қабылдауына жазуға арналған Hospital Management System жобасын таныстырады. Жүйе пациенттерді, дәрігерлерді, қабылдауларды және медициналық жазбаларды байланыстырады.</p>
+      <div class="actions"><a class="button" href="#database">Деректер базасын қарау <span aria-hidden="true">↓</span></a><a class="text-link" href="http://localhost:8000">Негізгі жүйеге өту →</a></div>
+    </section>
+    <section class="metrics" aria-label="Жоба туралы қысқаша мәлімет">
+      <article><span>Негізгі кестелер</span><strong>8</strong><small>Өзара байланысқан құрылым</small></article>
+      <article><span>Деректер саны</span><strong>97</strong><small>27.10.2026 күнгі тексеріс</small></article>
+      <article><span>Қол жеткізу рөлдері</span><strong>3</strong><small>Әкімші · тіркеуші · дәрігер</small></article>
+    </section>
+    <section id="database" class="panel" aria-labelledby="table-title">
+      <div class="section-heading"><div><p class="eyebrow">ЖОБАНЫҢ ҚҰРЫЛЫМЫ</p><h2 id="table-title">Негізгі деректер кестелері</h2></div><span class="tag">MariaDB · utf8mb4</span></div>
+      <p>Төмендегі сандар — негізгі жобаның тексерілген деректері. Бұл HTML бет деректер базасына тікелей қосылмайды; ақпарат статикалық түрде берілген.</p>
+      <div class="table-scroll"><table>
+        <caption>Емхана жүйесінің негізгі сегіз кестесі</caption>
+        <thead><tr><th scope="col">Кесте атауы</th><th scope="col">Мақсаты</th><th scope="col">Жазба саны</th></tr></thead>
+        <tbody>
+          <tr><td><code>users</code></td><td>Пайдаланушылар және олардың рөлдері</td><td>11</td></tr>
+          <tr><td><code>departments</code></td><td>Емхана бөлімшелері</td><td>6</td></tr>
+          <tr><td><code>specializations</code></td><td>Дәрігер мамандықтарының анықтамалығы</td><td>7</td></tr>
+          <tr><td><code>doctors</code></td><td>Дәрігерлердің профильдері</td><td>8</td></tr>
+          <tr><td><code>patients</code></td><td>Пациенттердің тіркеу мәліметтері</td><td>20</td></tr>
+          <tr><td><code>appointments</code></td><td>Қабылдауға жазылу мәліметтері</td><td>22</td></tr>
+          <tr><td><code>medical_records</code></td><td>Қабылдау нәтижелері және медициналық жазбалар</td><td>11</td></tr>
+          <tr><td><code>prescriptions</code></td><td>Медициналық жазбаға қатысты рецепттер</td><td>12</td></tr>
+        </tbody>
+        <tfoot><tr><th colspan="2" scope="row">Барлығы</th><td>97</td></tr></tfoot>
+      </table></div>
+    </section>
+    <section class="info-grid" aria-label="Жұмыс қағидасы">
+      <article class="panel"><p class="eyebrow">ВЕБ-СЕРВЕР</p><h2>Сұраныстан жауапқа дейін</h2><p>Браузер <code>http://localhost/lab9/</code> мекенжайына HTTP сұранысын жібереді. Apache <code>htdocs/lab9/index.html</code> файлын, одан кейін <code>style.css</code> файлын қайтарады. Браузер мазмұн мен безендіруді біріктіреді.</p></article>
+      <article class="panel"><p class="eyebrow">ҚОСЫМША АҚПАРАТ</p><h2>Пайдалы сілтемелер</h2><p>Жоба жергілікті компьютерде XAMPP құрамындағы Apache арқылы іске қосылды.</p><a href="https://httpd.apache.org/" target="_blank" rel="noopener noreferrer">Apache HTTP Server ресми сайты ↗</a></article>
+    </section>
+  </main>
+  <footer><span>Hospital Management System · оқу жобасы</span><span>HTML + CSS · Apache · localhost</span></footer>
+</body>
+</html>

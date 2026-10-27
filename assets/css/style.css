@@ -1,0 +1,49 @@
+/* Project-specific additions to Tabler Core 1.7.1. */
+:root { --tblr-font-sans-serif:"Segoe UI",system-ui,-apple-system,sans-serif; --tblr-primary:#206bc4; }
+body { font-size:.875rem; }
+.skip-link { position:fixed; top:-80px; left:16px; padding:12px; z-index:2000; background:white; }
+.skip-link:focus { top:12px; }
+.navbar-brand { justify-content:flex-start; gap:10px; font-size:1.25rem; font-weight:650; }
+.navbar-brand .icon { color:var(--tblr-primary); }
+.workspace .navbar-vertical .navbar-brand { justify-content:flex-start; gap:10px; }
+.navbar-vertical .navbar-collapse { min-width:0; }
+.sidebar-account { width:100%; }
+.account-name { min-width:0; overflow-wrap:anywhere; font-size:.8125rem; }
+.app-content { max-width:1600px; padding-left:28px; padding-right:28px; }
+.app-content h2 { font-size:1.5rem; font-weight:600; letter-spacing:-.35px; margin-bottom:8px; }
+.app-content h4 { font-size:1.1rem; }
+.app-content > .d-flex { gap:12px; flex-wrap:wrap; }
+.card { box-shadow:none !important; border-radius:6px; }
+.card-header { min-height:0; padding:16px 20px; }
+.card-header h5,.card-header h6 { margin:0; font-size:.9rem; font-weight:600; }
+.card-header.bg-primary,.card-header.bg-success,.card-header.bg-info { background:var(--tblr-bg-surface) !important; color:var(--tblr-body-color) !important; }
+.card.shadow,.card.shadow-sm { box-shadow:none !important; }
+.card-body.table-responsive { padding:0; }
+.table { margin-bottom:0; }
+.table > :not(caption) > * > * { padding:11px 16px; }
+.table th { font-size:.7rem; font-weight:600; white-space:nowrap; }
+.table td { vertical-align:middle; }
+.badge.activity-badge.is-active { color:#24643d; background:#e7f3eb; }
+.badge.activity-badge.is-inactive { color:#4b5563; background:#edf0f3; }
+.table td .btn,.table td form { margin-top:2px; margin-bottom:2px; }
+.table-responsive { border-radius:0 0 6px 6px; }
+.table-responsive:focus-visible { outline:2px solid var(--tblr-primary); outline-offset:-2px; }
+.form-label { font-size:.8125rem; }
+.btn { border-radius:4px; }
+.btn-secondary { --tblr-btn-bg:#fff; --tblr-btn-color:var(--tblr-body-color); --tblr-btn-border-color:var(--tblr-border-color); }
+.auth-card { max-width:420px; margin:auto; }
+.auth-brand { display:flex; justify-content:center; align-items:center; gap:10px; margin-bottom:24px; color:var(--tblr-primary); font-size:1.4rem; font-weight:650; }
+.auth-description { max-width:340px; margin:0 auto 20px; }
+.day-stats { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:20px 0; }
+.day-stats .card-body { padding:16px 20px; }
+.day-stats strong { display:block; font-size:1.6rem; font-weight:600; margin-top:4px; }
+.day-stats span { color:var(--tblr-secondary); font-size:.8rem; }
+.filter-bar { align-items:end; }
+.actions-cell { white-space:nowrap; }
+.patient-slots { display:flex; flex-wrap:wrap; gap:8px; }
+.patient-reason { max-width:300px; overflow-wrap:anywhere; }
+.empty-state { padding:40px 16px !important; text-align:center; color:var(--tblr-secondary); }
+@media(min-width:992px) { .navbar-vertical.navbar-expand-lg .navbar-collapse { display:flex !important; flex-direction:column; height:calc(100vh - 90px); } .navbar-vertical .navbar-nav { width:100%; } }
+@media(max-width:991px) { .app-content { padding:0 20px; } .sidebar-account { margin-top:20px; } }
+@media(max-width:575px) { .app-content { padding:0 12px; } .app-content h2 { font-size:1.25rem; } .day-stats { gap:8px; } .day-stats .card-body { padding:12px; } .day-stats span { font-size:.7rem; } .day-stats strong { font-size:1.3rem; } .card-body { padding:16px; } .card-header { padding:14px 16px; } .auth-page .container { padding-left:18px; padding-right:18px; } }
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto !important; transition:none !important; } }

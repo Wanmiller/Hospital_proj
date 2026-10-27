@@ -1,0 +1,21 @@
+/database/backups/
+/tests/.runtime/
+
+# Local credentials and session/debug output
+.env
+.env.*
+!.env.example
+cookie*.txt
+debug*.txt
+sess_*
+/dump.php
+*.log
+
+# Generated coursework reports and personal documents
+/reports/
+/*.docx
+~$*
+
+# Python caches
+__pycache__/
+*.pyc
